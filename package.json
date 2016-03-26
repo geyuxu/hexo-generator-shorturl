@@ -1,0 +1,33 @@
+{
+  "name": "hexo-generator-shorturl",
+  "version": "0.0.1",
+  "description": "Short url generator plugin for Hexo",
+  "main": "index.js",
+  "dependencies": {
+    "ejs": "^1.0.0",
+    "utils-merge": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/geyuxu/hexo-generator-shorturl"
+  },
+  "keywords": [
+    "hexo",
+    "short url",
+    "generator"
+  ],
+  "author": {
+    "name": "Yasin Ge",
+    "email": "geyuxu@geyuxu.com",
+    "url": "http://geyuxu.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/geyuxu/hexo-generator-shorturl/issues"
+  },
+  "homepage": "https://github.com/geyuxu/hexo-generator-shorturl"
+}

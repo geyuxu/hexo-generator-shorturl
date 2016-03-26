@@ -1,0 +1,7 @@
+var urls = <%- data %>; 
+var p = window.location.pathname.replace(/\//g,'');
+var url = urls[p];
+if(url !== undefined){
+	window.location.href = url;
+}
+
